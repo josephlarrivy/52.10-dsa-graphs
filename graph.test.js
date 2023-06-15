@@ -138,7 +138,7 @@ describe("DFS", function() {
     var result = JSON.stringify(graph.depthFirstSearch(S));
     var validResult =
       result ===
-        JSON.stringify(["S", "U", "V", "W", "T", "R", "Q", "Y", "X", "P"]) ||
+      JSON.stringify(['S', 'U', 'V', 'W', 'T', 'R', 'Y', 'X', 'Q', 'P']) ||
       result ===
         JSON.stringify(["S", "P", "X", "U", "V", "W", "Y", "R", "Q", "T"]);
 
